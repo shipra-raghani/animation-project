@@ -1,0 +1,9 @@
+@media screen and (max-width: 700px) {
+  .list {
+    display: none;
+  }
+  .logo {
+    display: block;
+    font-size: 24px;
+  }
+}

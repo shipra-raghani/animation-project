@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #aabffc;
+  padding: 10px 20px;
+}
+.image {
+  width: 80px;
+  height: 80px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.list a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+  font-size: 18px;
+}
+.logo {
+  display: none;
+}
