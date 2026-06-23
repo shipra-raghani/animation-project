@@ -29,6 +29,7 @@
   .block1 p {
     width: 100%;
     left: 0;
+    text-align: center;
   }
   .block2 {
     gap: 0pxs;
@@ -41,7 +42,6 @@
     bottom: -10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
   .a h4 {
@@ -96,4 +96,35 @@
   /* .divide2 p {
     width: 580px;
   } */
+}
+@media screen and (max-width: 559px) {
+  .lane2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .more {
+    width: 100%;
+  }
+  .mid-lane {
+    height: 600px;
+  }
+  .block1 p {
+    text-align: center;
+  }
+  .a {
+    left: 230px;
+    height: 200px;
+    width: 130px;
+    padding: 6px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .a h4 {
+    font-size: 30px;
+  }
+  .a p {
+    font-size: 12px;
+  }
 }
