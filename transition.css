@@ -37,3 +37,20 @@
 .box1 a:hover::after {
   width: 100%;
 }
+.box2 a {
+  overflow: hidden;
+}
+.box2 a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: all 1s ease;
+}
+.box2 a:hover::after {
+  width: 100%;
+  left: 80px;
+}
