@@ -52,5 +52,5 @@
 }
 .box2 a:hover::after {
   width: 100%;
-  left: 80px;
+  left: 90px;
 }

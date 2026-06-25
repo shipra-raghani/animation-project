@@ -19,7 +19,7 @@
   width: 50px;
   background-color: #000;
   animation-name: block1;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   position: absolute;
   animation-timing-function: linear;
@@ -31,7 +31,7 @@
   width: 50px;
   background-color: #000;
   animation-name: block2;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   position: absolute;
   animation-timing-function: linear;
@@ -46,7 +46,7 @@
   left: 50%;
   position: absolute;
   animation-name: ball;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
